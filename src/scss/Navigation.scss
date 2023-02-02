@@ -1,0 +1,49 @@
+@import "./Main.scss";
+
+.navContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 100%;
+ // max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  @include query(tablet){
+    flex-direction: column;
+  }
+  @include query(mobile){
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  }
+
+  .navItems {
+    display: flex;
+  }
+
+  .item {
+    margin-left: 20px;
+    padding: 5px 15px;
+    }
+
+
+.item:hover {
+  color:  $color-dark;
+  cursor: pointer;
+  border-top: 3px solid $color-dark;
+  margin-top: 10px;
+
+  @include query(tablet){
+    border-bottom: 2px solid $color-dark;
+    border-top: none;
+  }
+  @include query(mobile){
+    border-bottom: 2px solid $color-dark;
+    padding-bottom: 10px ;
+    border-top: none;
+  }
+}

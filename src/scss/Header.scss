@@ -1,0 +1,101 @@
+@import "./Main.scss";
+
+.headerContainer {
+  display: flex;
+  margin: 25px 0px 25px 0px;
+
+  @include query(tablet){
+    margin-left: $gap;
+  }
+  @include query(mobile){
+    margin-left: $gap;
+    margin-top: 30px;
+  }
+
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left:  $margin-left ;
+}
+.vacation {
+  padding-bottom: 30px;
+}
+ .dreamVacation {
+  font-size: 18px;
+  font-weight: 700;
+} 
+
+.form-control {
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.input-left {
+  background-color: #ccc;
+  border: 1px solid #ced4da;
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+  left: 5px;
+}
+
+.input-right {
+  background-color: #0065fc;
+  border: 1px solid #ced4da;
+  border-radius: 0px 10px 10px 0px;
+
+  @include query(mobile){
+   display: none;
+  }
+
+}
+
+.input-right-mobile {
+  background-color: #0065fc;
+  border: 1px solid #ced4da;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  right: 15px;
+  display: contents;
+}
+
+@include query(mobile){
+  .input-right-mobile { display: inline; }
+  .input-right {display: none;}
+ }
+ @include query(desktop){
+ 
+  
+ }

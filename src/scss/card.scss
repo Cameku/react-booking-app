@@ -1,0 +1,80 @@
+@import "./Main.scss";
+
+.accommodation{
+    display: flex;
+    margin-bottom: 50px;
+}
+.card-body {  
+    background-color: #ccc;
+    width: 50%;
+    margin-left: $margin-left;
+    margin-top: $gap-top;
+    padding: $gap;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.card-right {
+    display: flex;
+    justify-content: space-around;
+}
+.card-inner {
+    background-color:  #fff;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+    margin-top: 30px;
+}
+.card-right-b {
+    display: flex;
+    justify-content: space-around;
+}
+.card-img-r {
+    border-radius: 20px 20px 0px 0px;
+    width: 250px;
+    height: 125px;
+}
+
+.card-accomodation {
+    padding: 10px;
+}
+.card-text-r {
+margin: 5px 0px 5px 0px;
+}
+
+
+//Most Popular
+
+.card-popular {  
+    background-color: #ccc;
+    margin-left: 20px;
+    margin-top: $gap-top;
+    padding: 5vh;
+    border-radius: 20px 20px 20px 20px;
+}
+.mostpopular-body {
+    display: flex;
+    flex-direction: column;
+}
+.mostpopular-inner {
+    display: flex;
+    background-color:  #fff;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+    margin-top: 30px;
+}
+.card-img-popular {
+    width: 220px;
+    border-radius: 20px 0px 0px 20px;
+}
+.popular-items {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 20px 20px 0px 20px;
+}
+.card-text-popular {
+    margin: 10px 5px 10px 0px;
+}
+.card-stars-popular {
+    align-self: baseline;
+    color: $color-dark;
+}
