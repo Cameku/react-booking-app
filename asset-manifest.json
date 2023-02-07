@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-booking-app/static/css/main.cabc6180.css",
-    "main.js": "/react-booking-app/static/js/main.dbebe419.js",
+    "main.css": "/react-booking-app/static/css/main.d3503f63.css",
+    "main.js": "/react-booking-app/static/js/main.a8e10fa5.js",
     "static/js/787.cac5d3ad.chunk.js": "/react-booking-app/static/js/787.cac5d3ad.chunk.js",
     "static/media/marcus.jpg": "/react-booking-app/static/media/marcus.f846e52174c4aa90ea63.jpg",
     "index.html": "/react-booking-app/index.html",
-    "main.cabc6180.css.map": "/react-booking-app/static/css/main.cabc6180.css.map",
-    "main.dbebe419.js.map": "/react-booking-app/static/js/main.dbebe419.js.map",
+    "main.d3503f63.css.map": "/react-booking-app/static/css/main.d3503f63.css.map",
+    "main.a8e10fa5.js.map": "/react-booking-app/static/js/main.a8e10fa5.js.map",
     "787.cac5d3ad.chunk.js.map": "/react-booking-app/static/js/787.cac5d3ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cabc6180.css",
-    "static/js/main.dbebe419.js"
+    "static/css/main.d3503f63.css",
+    "static/js/main.a8e10fa5.js"
   ]
 }
